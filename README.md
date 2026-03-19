@@ -1,47 +1,39 @@
-# DESIGN-OF-INVERTING AMPLIFIER
-## AIM:
-To design and construct a inverting amplifier.
+# SIMULATION-OF-ACTIVE-LOWPASS-HIGH-PASS-AND-BANDPASS-FILTERS
 
-## APPARATUS REQUIRED:
-<img width="768" height="213" alt="image" src="https://github.com/user-attachments/assets/d2a172d2-abb8-4930-8db5-78338f0486fe" />
+## AIM : To Design and simulate the following circuits using LT-Spice
+a.	Active low pass filter
+b.	Active high pass filter
+c.	Active band pass filter
 
-## THEORY:
-Op-amp in open-loop configuration has a very few application because of its enormous open-loop gain. Controlled gain can be can be achieved by taking a part of output signal to the input with the help of feedback. This is called as Closed- Loop Configuration. The three basic types of closed-loop amplifier configuration are:
-1. Inverting amplifier.
-2. Non-inverting amplifier.
-3. Differential amplifier.
-The entire configuration can be operated with either AC or DC input.
-INVERTING AMPLIFIER:
-This is the most widely used op-amp. Here, the output voltage Vo is feedback to the inverting input terminal through the Rf – R1 network. The negative sign in gain indicates the phase shift of 180ο.
-The circuit closed-loop voltage gain is Avcl= -RF / R1
-
-## DESIGN:
-Inverting amplifier:
-A = -Rf/R1
-Take A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
-
-## CIRCUIT DIAGRAM
-<img width="674" height="338" alt="image" src="https://github.com/user-attachments/assets/a1c35782-2787-4a3d-994a-6ed78afcafb5" />
+## SOFTWARE REQUIRED: 
+LT-Spice
 
 ## PROCEDURE:
-Inverting amplifier:
-1. Select R1 as a constant value and choose a value of Rf.
-2. Connect the circuit as per as the circuit diagram.
-3. Apply the constant amplitude input voltage to the circuit.
-4. Measure the output voltage amplitude for different value of V1 from DSO.
-5. Calculate the practical Voltage for different value of V1& compare it with theoretical output.
-6. Practical gain & theoretical voltage should be approximately equal.
-7. Plot the graph of the input wave versus output wave for any one practical case.
+•	Double click on LT-Spice icon.
+•	New schematic window open.
+•	Pick and paste the required component from the library and draw the circuit diagram .
+•	Complete the connection.
+•	Save the file by giving file name.
+•	Click on the run option ->click advanced open ->select Ac analysis->enter the amplitude time delay stop time value.
+•	Click on the run option ->simulation window opens->place the probe ->output graph is obtained.
 
-## MODEL GRAPH:
-<img width="368" height="284" alt="image" src="https://github.com/user-attachments/assets/d2081f1e-57d1-4cd0-b59a-5ebb4115733d" />
+## LOWPASS FILTER CIRCUIT DIAGRAM 
+<img width="650" height="320" alt="image" src="https://github.com/user-attachments/assets/c6bef8d6-3bff-4a5b-86a3-b8473053efb5" />
 
-## TABULATION:
+## OUTPUT: LOWPASS FILTER
+<img width="1397" height="390" alt="image" src="https://github.com/user-attachments/assets/e9f16e4d-ff79-45d5-944b-5b6450118ddd" />
 
+## HIGHPASS FILTER CIRCUIT DIAGRAM 
+<img width="461" height="320" alt="image" src="https://github.com/user-attachments/assets/586e1119-108c-4fd5-b138-ed0b0d18f153" />
 
-## GRAPH:
+## OUTPUT: HIGHPASS FILTER
+<img width="1395" height="359" alt="image" src="https://github.com/user-attachments/assets/6aef8dcc-cf63-4439-b674-4b05ad3d57cd" />
 
+## BANDPASS FILTER CIRCUIT DIAGRAM 
+<img width="644" height="319" alt="image" src="https://github.com/user-attachments/assets/27842134-de81-44a7-a3d1-7fc5dd044c49" />
 
-## RESULT:
+## OUTPUT: BANDPASS FILTER 
+<img width="1385" height="366" alt="image" src="https://github.com/user-attachments/assets/306b94b6-5a5b-4d6b-afa9-3b9c3de4700f" />
+
+## RESULT :
+Thus the LT-SPICE tool has been studied and active low pass filter, high pass and bandpass filter is simulated.
